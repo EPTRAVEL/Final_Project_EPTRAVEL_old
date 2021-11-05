@@ -11,25 +11,71 @@
 
 <body>
     <div class="container">
+        <!-- Phần header -->
         <div class="header">
-            <iframe src="header.html" width="100%" height="200px"></iframe>
-        </div>
 
-        <div>
-            <div class=" content ">
-                <div class="trangchu1">
-                    <iframe src="trang chu1.html" width="100%" height="400px"></iframe>
-                </div>
-                <div class="trangchu1">
-                    <iframe src="trangchu2.html" width="100%" height="3000px"></iframe>
-                </div>
-
+            <div class="header--logo">
+                <img class="logo" src="./assets/images/icons/logo.png" alt="Không hiển thị được hình">
             </div>
 
-            <div class="footer ">
-                <iframe src="footer.html" width="100%" height="400px"></iframe>
+            <div class="header--layout">
+                <div class="itemsearch">
+                    <div class="boxsearch">
+                        <input type="text" id="inputSearch" placeholder="Search...">
+                        <input type="button" id="btnSearch" value="">
+                    </div>
+                    <p>Số điện thoại tổng đài: 1900</p>
+                </div>
+                <div class="itemDN">
+                    <input type="button" value="Đăng nhập" class="acc">
+                    <div class="header__icon"><a href=""><img width=30px src="./assets/images/icons/YeuThich.png"
+                                alt=""></a></div>
+                    <p><a href="">Yêu thích</a></p>
+                </div>
+                <div class="itemDK">
+                    <input type="button" value="Đăng xuất" class="acc">
+                    <div class="header__icon"><a href=""><img width=30px src="./assets/images/icons/ViTri.png"
+                                alt=""></a></div>
+                    <p><a href="">Yêu thích</a></p>
+                </div>
             </div>
+
         </div>
+
+        <div class="nav">
+            <ul>
+                <li> <a href="#">Trang chủ</a></li>
+                <li> <a href="#">Tour du lịch</a>
+                    <ul>
+                        <li> <a href="#">Tour trong nước</a>
+                        <li> <a href="#">Tour ngoài nước</a>
+                    </ul>
+                </li>
+                <li> <a href="#">Giỏ hàng</a></li>
+                <li> <a href="#">Blog</a></li>
+                <li> <a href="#">Khuyến mãi</a></li>
+                <li> <a href="#">Liên hệ</a></li>
+            </ul>
+
+        </div>
+
+
+
+        <div class="content">
+            <div class="trangchu1">
+                <iframe src="trang chu1.html" width="100%" height="400px"></iframe>
+            </div>
+            <div class="trangchu1">
+                <iframe src="trangchu2.html" width="100%" height="1800px"></iframe>
+            </div>
+
+        </div>
+
+        <div class="footer ">
+            <iframe src="footer.html" width="100%" height="400px"></iframe>
+        </div>
+
+
 
 
 

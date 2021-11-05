@@ -50,31 +50,32 @@ html {
     margin-top: 10px;
 }
 
-.header__img {
-    width: 100%;
-    height: 100%;
+.logo {
+    width: 200px;
+    margin: -10px 20px;
 }
 
-.header {
+.nav {
     width: 80%;
     margin: 0 auto;
     text-indent: 0px;
+    background-color: #0C4A6D;
 }
 
-.header ul {
+.nav ul {
     margin-left: 0;
     margin-right: 0;
     float: left;
     list-style: none;
 }
 
-.header ul li {
+.nav ul li {
     position: relative;
     float: left;
     padding: 0 5px;
 }
 
-.header ul li a {
+.nav ul li a {
     display: block;
     color: white;
     text-decoration: none;
@@ -82,22 +83,22 @@ html {
     font-weight: bold;
 }
 
-.header li a:hover {
+.nav li a:hover {
     background: #86A3A7;
     color: white;
 }
 
-.header li ul {
+.nav li ul {
     position: absolute;
     display: none;
     width: 10em;
 }
 
-.header li:hover ul {
+.nav li:hover ul {
     display: block;
 }
 
-.header ul li ul li {
+.nav ul li ul li {
     width: 100%;
 }
 
