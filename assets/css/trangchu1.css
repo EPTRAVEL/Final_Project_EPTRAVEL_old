@@ -1,8 +1,5 @@
-.background{
-    background-image: url(/assets/Photo/main_background.png);
-}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-.container{
+.container1{
     display: flex;
     flex-direction: row;
     background-color: rgba(255, 255, 255, 0.35);
@@ -23,7 +20,7 @@ img{
     border-radius: 10px;
     height: 150px;
 }
-.content_banner{
+.content_banner1{
     background-color: rgba(51, 58, 79, 1);
     border-radius: 7px;
     margin: 5px 10px;
@@ -34,7 +31,7 @@ img{
     width: 200px;
     height: 70px;
 }
-.text_banner{
+.text_banner1{
     margin: 5px;
     color: white;
     text-align: center;
@@ -43,12 +40,12 @@ mark{
     background-color: rgba(51, 58, 79, 1) ;
     color: yellow;
 }
-.content_banner_price{
+.content_banner_price1{
     color: red;
     
 }
 @media screen and (max-width: 920px) {
-    .container{
+    .container1{
        flex-wrap: wrap;
     }
 }
