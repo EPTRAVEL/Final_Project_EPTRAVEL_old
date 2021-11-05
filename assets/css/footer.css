@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .footer {
     width: 100%;
     background-color: rgba(82, 75, 75, 0.4);

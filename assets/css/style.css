@@ -1,0 +1,39 @@
+    html,
+    body {
+        margin: 0;
+        padding: 0cm;
+    }
+    
+    .container {
+        position: relative;
+    }
+    
+    .header {
+        position: -webkit-sticky;
+        /* Safari */
+        position: sticky;
+        top: 0;
+        background-color: rgb(253, 188, 113);
+        width: 100%;
+        height: 200px;
+    }
+    
+    .content {
+        width: 100%;
+        height: 3000px;
+    }
+    
+    .footer {
+        /* background-color: rgb(250, 151, 151); */
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        bottom: -100px;
+    }
+    
+    iframe {
+        border-width: 0;
+        border-style: none;
+        border-color: none;
+        border-image: none;
+    }
