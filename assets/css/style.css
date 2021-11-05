@@ -2,6 +2,10 @@
     body {
         margin: 0;
         padding: 0cm;
+        background-image: url(../images/background/main_background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
     
     .container {
@@ -13,9 +17,6 @@
         /* Safari */
         position: sticky;
         top: 0;
-        background-color: rgb(253, 188, 113);
-        width: 100%;
-        height: 200px;
     }
     
     .content {
@@ -27,8 +28,6 @@
         /* background-color: rgb(250, 151, 151); */
         width: 100%;
         height: 100px;
-        position: absolute;
-        bottom: -100px;
     }
     
     iframe {

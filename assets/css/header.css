@@ -12,6 +12,7 @@ html {
     /* background-image: url(../images/background/main_background.png);
     background-size: cover;
     background-repeat: no-repeat; */
+    background-color: rgba(82, 75, 75, 0.4);
 }
 
 .header--container {
