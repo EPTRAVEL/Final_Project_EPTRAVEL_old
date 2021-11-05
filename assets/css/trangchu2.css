@@ -1,0 +1,134 @@
+        html,
+        body {
+            background-image: url(../images/hinh/main_background.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            z-index: 1;
+            margin: 0;
+            padding: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .div-container__left {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            height: auto;
+            /*background-color: aquamarine;*/
+            margin: 20px;
+        }
+        
+        .div-container__right {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            height: auto;
+            /*background-color: rgb(41, 26, 128);*/
+            margin: 20px;
+        }
+        
+        .div-child__left1 {
+            width: 100%;
+            height: auto;
+            margin: 20px 10px;
+            background-color: rgb(255, 250, 250, 0.5);
+            border-radius: 20px;
+        }
+        
+        .div-child__left2 {
+            width: 100%;
+            height: auto;
+            margin: 20px 10px;
+            background-color: rgb(255, 250, 250, 0.5);
+            border-radius: 20px;
+        }
+        
+        .div-child__left1-row {
+            display: flex;
+            flex-direction: row;
+            margin: auto;
+        }
+        
+        .img__tour {
+            width: 80%;
+            margin: 5% 5%;
+            border-radius: 10%;
+        }
+        
+        .header_tour {
+            font-size: 2vw;
+            background-color: darkgray;
+            border-radius: 5px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: bold;
+        }
+        
+        .tour__price {
+            font-size: 2vw;
+            background-color: transparent;
+            width: 40%;
+            margin-left: auto;
+            margin-right: auto;
+            color: red;
+            font-weight: bold;
+        }
+        
+        .div-child__left1-row-column {
+            display: flex;
+            width: 45%;
+        }
+        
+        .div-child-right {
+            width: 90%;
+            margin: 20px 10px 20px 10px;
+            background-color: rgb(255, 250, 250, 0.5);
+            border-radius: 20px;
+        }
+        
+        .img_right {
+            width: 90%;
+            padding: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .header__blog {
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            font-size: 2vw;
+            width: 10%;
+            background-color: darkgray;
+            text-align: center;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        
+        .img__blog {
+            width: 50%;
+            height: 60%;
+            display: inline;
+            float: left;
+            border-radius: 10px;
+            margin-top: 25px;
+            margin-right: 10px;
+        }
+        
+        .content__blog {
+            font-size: 2vw;
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+        }
