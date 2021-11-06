@@ -190,3 +190,22 @@ iframe {
   border-color: none;
   border-image: none;
 }
+@media screen and (max-width:900px){
+  .logo{
+    width: 150px;
+  }
+  .header{
+    flex-direction: column;
+  }
+  .header--layout{
+    flex-direction: column;
+  }
+  .itemDN p a,
+.itemDK p a{
+  display: none
+}
+  .nav{
+    display: none;
+  }
+  
+}
